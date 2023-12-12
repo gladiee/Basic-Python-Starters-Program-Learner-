@@ -6,4 +6,4 @@ from divide import div
 print(add);
 print(sub);
 print(multi);
-print(div);
+print(div)
