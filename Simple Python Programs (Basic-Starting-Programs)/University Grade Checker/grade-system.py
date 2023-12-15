@@ -45,7 +45,22 @@ elif float(75.0) <= m <= float(84.9):
 
     print(St_name,"Accquired Distinction With :", m,"%")
 
+elif float(60.0) <= m <= float(74.9):
 
+    print(St_name,"Accquired First Grade With :", m,"%")
+
+elif float(50.0) <= m <= float(59.9):
+
+    print(St_name,"Accquired Second Grade With :", m,"%")
+
+elif float(40.0) <= m <= float(49.9):
+
+    print(St_name,"Accquired Third Grade With :", m,"%")
+
+elif float(39.9) <= m <= float(0.0):
+
+    print(St_name,"Failed In Exam :", m,"%")
+    print("Try in Next Exam | U can Apply at https://google.com")
 
 print()
 
